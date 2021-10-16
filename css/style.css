@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+
+    font-family: 'Tajawal', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: rgb(255, 255, 255);
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.600) , black) , url(../images/background1.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+h2{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.hero-box{
+    position: absolute;
+    top: 40%; left: 25%;
+
+
+}
+h4{
+
+
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: rgb(49, 20, 20);
+
+
+}
+.btn{
+    background-color: rgb(243, 23, 23);
+    text-decoration: none;
+    border: solid white 1px ;
+    margin-left: 110px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px 15px 15px 15px;
+    font-size: large;
+    font-weight: bold;
+
+}
+h1{
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+
+    font-family: 'Tajawal', sans-serif;
+    text-transform: uppercase;
+
+
+}
+.btn:hover{
+    color: rgb(1, 196, 255);
+    background-color: rgba(0, 0, 0, 0);
+    transform: scale(1.1);
+}
+.pr{
+    margin-right: 10px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 16;
+
+}
+.uou{
+    width: 400px;
+    height: 300px;
+     margin-bottom: 30px;
+}
+footer{
+    background-color: #333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgba(255, 255, 255, 0.726);
+}
+
+.load{
+    
+    margin: 15px;
+
+}
+.zrar{
+    background-color: blue;
+}
+
+.pho img{
+    width: 100%;
+    opacity: .3;
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+.pho{
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+.pho img:hover{
+    transform: scale(1);
+    opacity: 1;
+}
